@@ -1,0 +1,76 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.header{
+    width: auto;
+    height: 300px;
+    border: 4px solid;
+    background-color: aqua;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    border: 4px solid;
+    box-shadow: 0px 0px 10px 5px;
+}
+
+.one{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.one:hover{
+    transition: 2s;
+    transform: rotateX(360);
+    background-image: url(./Без\ названия\ \(1\).jpg);
+}
+.two{
+    background-color: red;
+}
+
+.two:hover{
+    transition: 2s;
+    transform: rotateX(360);
+    background-image: url(./Без\ названия.jpg)
+}
+.three{
+    background-color: green;
+}
+
+.three:hover{
+    transition: 2s;
+    transform: rotateX(360);
+    background-image: url(./Без\ названия\ \(2\).jpg)
+}
+.foure{
+    background-color: blue;
+}
+
+.foure:hover{
+    transition: 2s;
+    transform: rotateX(360);
+    background-image: url(./Без\ названия\ \(3\).jpg)
+}
+.five{
+    background-color: yellow;
+}
+
+.five:hover{
+    transition: 2s;
+    transform: rotateX(360);
+    background-image: url(./Без\ названия\ \(4\).jpg)
+}
+.six{
+    background-color: pink;
+}
+
+.content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
